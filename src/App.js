@@ -190,7 +190,7 @@ function App() {
       <h2 style={styles.title}>Generate Shipping Label</h2>
 
       <form style={styles.form} onSubmit={handleSubmit}>
-        <input
+        {/* <input
           name="name"
           placeholder="Recipient Name"
           onChange={handleChange}
@@ -230,8 +230,14 @@ function App() {
           onChange={handleChange}
           required
           style={styles.input}
-        />
-
+        /> */}
+<textarea
+  name="toAddress"
+  placeholder="Enter Full Address (Name, Street, City, Pincode, Phone)"
+  onChange={handleChange}
+  required
+  style={{ ...styles.input, height: "100px" }}
+/>
         <button type="submit" style={styles.button}>
           Generate Label
         </button>
