@@ -180,7 +180,7 @@
 
 
 import React, { useState } from "react";
-import Label from "./Label";
+// import Label from "./Label";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import ModernLabel from "./ModernLabel";
