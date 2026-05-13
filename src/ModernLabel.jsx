@@ -14,6 +14,7 @@ const Label = ({ data }) => {
         {/* FROM */}
         <div style={styles.from}>
           <h3 style={styles.title}>MEENU WOOD CRAFTS & TOYS</h3>
+          <p>6384785350</p>
           <p>No.2, Old Vandipalayam</p>
           <p>Cuddalore – 607004</p>
         </div>
